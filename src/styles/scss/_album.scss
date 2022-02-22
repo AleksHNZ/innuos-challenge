@@ -1,0 +1,66 @@
+ .album-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+
+
+  #{&}__qobuz {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    bottom: 31px;
+    right: 11px;
+    align-self: self-end;
+  }
+
+  #{&}__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    color: #fff;
+  }
+
+  img {
+    width: 100%;
+  }
+
+
+
+}
+.albums-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+  margin: 10px 80px;
+  min-height: 100vh;
+}
+
+
+  .albums-list {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+
+  }
+
+  .album-list .album-container {
+    flex: 1;
+  }
+
+  .filter-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #fff;
+
+    label {
+      padding-right: 10px;
+
+    }
+  }

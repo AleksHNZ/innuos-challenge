@@ -1,0 +1,17 @@
+@include media-lg {
+    .main-container {
+        margin: 24px;
+      }
+}
+
+@include media-md {
+    .album-container {
+        width: 270px;
+      }
+}
+
+@include media-sm {
+    .album-container {
+        width: auto;
+      }
+}

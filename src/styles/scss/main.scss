@@ -1,0 +1,26 @@
+@import 'config';
+@import 'album';
+@import 'responsive';
+
+.main-container {
+    position: relative;
+    height: 100vh;
+
+    &__button {
+      @include center-button;
+      font-size: 16px;
+      border: 2px solid #d6ca1a;
+      border-radius: 5px;
+      padding: 8px;
+      background-color: #423f3f;
+      cursor: pointer;
+      color: #fff;
+      transition: all .3s ease;
+     }
+
+    &__button:hover {
+      background-color: #fff;
+      color: #000
+    }
+
+  }
